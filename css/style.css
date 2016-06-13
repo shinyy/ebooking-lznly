@@ -1,0 +1,57 @@
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select {
+	margin: 0;
+	padding: 0;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+ul {
+	list-style: none;
+}
+a:link, a:visited {
+	text-decoration: none;
+}
+.clear{
+	clear:both;}
+	
+.container-fluid{
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	padding-top:10px;
+	padding-bottom:10px
+}
+.hotel-info-box{
+	
+}
+.hotel-info-box h3 {
+    padding-bottom:10px;
+}
+.hotel-info-box h3 a {
+    font: bold 14px simsun, microsoft yahei, simhei;
+    color: #3e78c1;
+}
+.hotel-info-box .col-xs-4{
+	padding-left: 0;
+	font: 12px/24px simsun, simhei;
+}
+.hotel-info-box .col-xs-4 li{
+	
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.table.shin-sp1{
+	    text-align: center;
+    font: 12px/26px simsun, simhei;
+    color: #333;
+}
+.table.shin-sp1>thead>tr>th{
+    font-weight: normal;
+    color: #888;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
