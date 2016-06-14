@@ -1,0 +1,256 @@
+.calendar-tb{
+	border-top:1px solid #6db2f7;
+	}
+.calendar-date>td{
+	color:#fff;
+	height:59px;
+	background:#499ff5;
+	text-align:center;
+	font:16px/28px microsoft yahei,simhei;
+	border-left:1px solid #6db2f7;
+	}
+
+.calendar-date>td.holiday{
+	background:#3293f3;}
+	.calendar-date>td.hover{
+	background:#ff6406;}
+.select-room-state th{
+	font:bold 12px simsun,simhei;
+	height:40px;
+	color:#666;}
+.select-room-state td{
+	font:12px simsun,simhei;
+	}
+.select-room-state select{
+	width:98px;
+	height:28px;
+	border:1px solid #ccc;}
+.select-room-state label{
+	margin-right:20px;}
+.select-room-state label input{
+	vertical-align:sub;
+	margin-right:5px;}
+	
+
+
+
+/*******************/
+/*.content {
+    background: #f9f9f9;
+    width: 100%;
+    padding: 20px 20px 0 180px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+.calendar-block {
+    height: 110px;
+    background: #1b87f2;
+    margin-bottom: 10px;
+}
+.shin-bar {
+    position: relative;
+    width: 100%;
+}
+.calendar-block .shin-bar-left, .calendar-block .shin-bar-right {
+    height: 110px;
+}
+.shin-bar-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 180px;
+}
+
+.shin-select-copy {
+    position: relative;
+    width: 130px;
+    height: 30px;
+    padding-left: 10px;
+    font: 12px/30px simsun,simsun;
+    background: url(../images/select-copy.png) no-repeat;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.shin-select-slide {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    z-index: 10;
+    width: 498px;
+    border: 1px solid #ddd;
+    background: #fff;
+    display: none;
+}
+
+.check-tb {
+    padding: 25px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.check-btn-bar {
+    height: 58px;
+    background: #f9f9f9;
+    padding-left: 25px;
+}
+
+
+.check-btn-bar a {
+    float: left;
+    display: block;
+    width: 100px;
+    height: 40px;
+    background: #2087f1;
+    font: bold 16px/40px simsun,simhei;
+    color: #fff;
+    text-align: center;
+    margin-top: 9px;
+    margin-right: 20px;
+}
+
+.check-btn-bar label {
+    position: relative;
+    top: 15px;
+}
+
+.check-btn-bar input[type="checkbox"] {
+    vertical-align: sub;
+    margin-right: 5px;
+}
+
+.check-btn-bar label {
+    position: relative;
+    top: 15px;
+}
+.rooms-set-btn {
+    display: block;
+    width: 140px;
+    height: 40px;
+    background: #f60;
+    font: 14px/40px simsun,simhei;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.shin-select-slide {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    z-index: 10;
+    width: 498px;
+    border: 1px solid #ddd;
+    background: #fff;
+    display: none;
+}
+.shin-bar-right {
+    width: 100%;
+    padding-left: 180px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+.calendar-hd {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+.calendar-left-btn {
+    left: 0;
+    border-right: 1px solid #248cf3;
+}
+.calendar-left-btn, .calendar-right-btn {
+    position: absolute;
+    top: 0;
+    width: 79px;
+    font: 14px/50px simsun,simhei;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.calendar-left-btn span, .calendar-right-btn span {
+    display: block;
+    width: 12px;
+    height: 22px;
+}
+.calendar-left-btn span {
+    float: left;
+    background: url(../images/ico.png) no-repeat -27px -30px;
+    margin: 15px 5px 0 10px;
+}
+.calendar-left-btn, .calendar-right-btn {
+    position: absolute;
+    top: 0;
+    width: 79px;
+    font: 14px/50px simsun,simhei;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.calendar-right-btn {
+    right: 0;
+    border-left: 1px solid #248cf3;
+}
+
+.calendar-til {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font: bold 16px/50px simsun,simhei;
+}
+
+.rooms-sp-tb {
+    background: #fff;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.rooms-sp-tb th {
+    padding-top: 28px;
+}
+
+.rooms-sp-tb tr .type {
+    float: left;
+    width: 149px;
+}
+
+.rooms-sp-tb tr .pay-type {
+    font: bold 20px/30px microsoft yahei,simhei;
+}
+
+.rooms-sp-tb tr .room-type {
+    font: bold 14px/20px simsun,simhei;
+}
+
+.rooms-sp-tb tr .rooms-state-price {
+    width: 30px;
+    float: left;
+    padding-top: 20px;
+    font: 12px/20px simsun,simhei;
+    color: #bbb;
+}
+
+.rooms-sp-tb tr .rooms-state-price li {
+    height: 20px;
+}
+.rooms-sp-tb td:hover .room-state {
+}
+.rooms-sp-tb td:hover, .rooms-sp-tb td:hover .room-state {
+    background: #ffb27f;
+}
+.rooms-sp-tb .room-state {
+    height: 28px;
+    background: #f9f9f9;
+    font: 12px/28px simsun,simhei;
+    color: #888;
+}*/
+
+
+
+
+

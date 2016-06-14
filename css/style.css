@@ -55,3 +55,30 @@ a:link, a:visited {
     padding-right: 0;
     text-align: center;
 }
+.form-box{
+	padding: 20px 0;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+.form-control{
+	display: inline-block;
+}
+.form-box{
+	font: 12px "microsoft yahei",simhei;
+}
+.form-box-row{
+	margin-bottom: 10px;
+	overflow: hidden;
+	min-height: 35px;
+	line-height: 30px;
+	clear: both;
+}
+.form-box-row .til{
+	display: block;
+	width: 60px;
+	float: left;
+	text-align: right;
+}
+.form-box-row label{
+	float:left
+}
