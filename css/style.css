@@ -82,3 +82,29 @@ a:link, a:visited {
 .form-box-row label{
 	float:left
 }
+.acc-form label{
+	width: 115px;
+	text-align: right;
+	font: normal 12px simsun,simhei;
+	padding-right:10px;
+	color: #666;
+}
+.acc-form .row{
+	margin-bottom: 10px;
+}
+.acc-form .btn{
+	width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: #1b87f2;
+    font: 16px microsoft yahei, simhei;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+   margin-left:100px
+}
+.container-fluid.acc-form{
+	border: 0;
+}
+
