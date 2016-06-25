@@ -107,4 +107,6 @@ a:link, a:visited {
 .container-fluid.acc-form{
 	border: 0;
 }
-
+.modal-block{
+	padding:20px 0
+}
